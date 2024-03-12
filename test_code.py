@@ -14,6 +14,7 @@ class UnsplashWebsiteSearchTest(unittest.TestCase):
         self.browser_driver.get("https://unsplash.com/")
 
     def test_search_book(self):
+
         search_term = "book"
         try:
             # Locate the search input field
